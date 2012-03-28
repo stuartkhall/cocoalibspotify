@@ -1,3 +1,7 @@
+# WARNING #
+
+This is a legacy branch of CocoaLibSpotify and is out-of-date and unsupported. Please use the master branch for production code.
+
 # CocoaLibSpotify #
 
 CocoaLibSpotify is an Objective-C wrapper around our libspotify library. It provides easy access to libspotify's features in a friendly, KVC/O compliant Objective-C wrapper.
