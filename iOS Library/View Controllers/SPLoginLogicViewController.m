@@ -84,6 +84,7 @@
 
 		self.allowsCancel = YES;
 		self.title = @"Spotify";
+        self.remembersCredentials = YES;
 		
 		[self addObserver:self
 			   forKeyPath:@"allowsCancel"
