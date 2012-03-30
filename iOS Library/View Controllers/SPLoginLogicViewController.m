@@ -279,14 +279,16 @@
 	[super viewDidLoad];
 	
 	self.cancelButton = [[UIBarButtonItem alloc] initWithTitle:@"Cancel"
-														 style:UIBarButtonItemStyleBordered
+														 style:UIBarButtonItemStylePlain
 														target:self
 														action:@selector(cancel:)];
+    self.cancelButton.tintColor = [UIColor colorWithRed:0xED/255.0 green:0xEC/255.0 blue:0xE8/255.0 alpha:1];
 	
 	self.loginButton = [[UIBarButtonItem alloc] initWithTitle:@"Log In"
-														style:UIBarButtonItemStyleBordered
+														style:UIBarButtonItemStylePlain
 													   target:self
 													   action:@selector(performLogin:)];
+    self.loginButton.tintColor = [UIColor colorWithRed:0xED/255.0 green:0xEC/255.0 blue:0xE8/255.0 alpha:1];
 	
 	self.navigationItem.leftBarButtonItem = self.allowsCancel ? self.cancelButton : nil;
 	self.navigationItem.rightBarButtonItem = self.loginButton;
