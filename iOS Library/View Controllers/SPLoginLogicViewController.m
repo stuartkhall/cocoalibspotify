@@ -76,6 +76,7 @@
 	if (self) {
 		self.session = sess;
 		self.modalPresentationStyle = UIModalPresentationFormSheet;
+        self.remembersCredentials = YES;
 		
 		[[NSNotificationCenter defaultCenter] addObserver:self 
 												 selector:@selector(sessionDidFailToLogin:)

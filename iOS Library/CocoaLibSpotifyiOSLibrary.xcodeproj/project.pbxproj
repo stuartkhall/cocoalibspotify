@@ -568,7 +568,7 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = 50AF49D61439CBFE00E4A5EF /* Build configuration list for PBXProject "CocoaLibSpotify iOS Library" */;
+			buildConfigurationList = 50AF49D61439CBFE00E4A5EF /* Build configuration list for PBXProject "CocoaLibSpotifyiOSLibrary" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -730,6 +730,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -752,6 +756,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -767,7 +775,12 @@
 		50AF49EA1439CBFE00E4A5EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				DSTROOT = /tmp/CocoaLibSpotify_iOS_Library.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaLibSpotify iOS Library-Prefix.pch";
@@ -788,7 +801,12 @@
 		50AF49EB1439CBFE00E4A5EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				DSTROOT = /tmp/CocoaLibSpotify_iOS_Library.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaLibSpotify iOS Library-Prefix.pch";
@@ -844,7 +862,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		50AF49D61439CBFE00E4A5EF /* Build configuration list for PBXProject "CocoaLibSpotify iOS Library" */ = {
+		50AF49D61439CBFE00E4A5EF /* Build configuration list for PBXProject "CocoaLibSpotifyiOSLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50AF49E71439CBFE00E4A5EF /* Debug */,
